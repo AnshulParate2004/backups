@@ -1,0 +1,58 @@
+* {
+    font-family: "Signika Negative", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+body {
+    --background-color: white;
+    --text-color: black;
+    --elements-color: #BEE9E8;
+    --hover-color: #CAE9FF;
+    --gradient-color : linear-gradient(43deg,#62B6CB 0%,#5FA8D3 40%,#BEE9E8 100%);
+    --buttonText-color : black;
+    --button-color : #62B6CB;
+    --box-shadow : rgba(0,0,0, 0.37) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    --quiz-bgcolor : #f9f9f9;
+    --quiz-label : #fff;
+    --border-quiz :1px solid #ddd;
+    --quiz-selected : #1B4965;
+    --navbar-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --sort-demo : white;
+    --about-bg : #aceeee;
+    --about-button : #dbf8fb;
+    --contact-bg : #dbf8fb;
+    --contact-button : #aceeee;
+    --contact-submit :#00607A ;
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0 auto;
+}
+
+body.dark {
+    --background-color: #081218; 
+    --text-color: white;
+    --elements-color: #004052;
+    --activeLink-color: black;
+    --hover-color: #004052;
+    --gradient-color : linear-gradient(90deg,#004052,#005066,#00607A);
+    --buttonText-color : #BEE9E8;
+    --button-color : #00303D;
+    --border : 4px solid #00607A;
+    --box-shadow : 0;
+    --quiz-bgcolor : #002029;
+    --quiz-label : #00303D;
+    --border-quiz :1px solid #00607A;
+    --quiz-selected : #BEE9E8;
+    --navbar-shadow: #004052 0px 1px 4px;
+    --sort-demo : black;
+    --about-bg : #081218;
+    --about-button : #004052;
+    --contact-bg : #002029;
+    --contact-button : #004052;
+    --contact-submit : #aceeee;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}

@@ -1,0 +1,164 @@
+.outerbox{
+    display: flex;
+    height: 92%;
+    margin-top: 60px;
+}
+.wel{
+    box-sizing: border-box;
+    font-size: 3rem;
+    font-weight: 600;
+    flex: 1;
+    margin : 3% 4%;
+}
+.wel h1{
+    background-image: linear-gradient(45deg,#1B4965 ,#62B6CB ,#5FA8D3 ,#BEE9E8 );
+    background-clip: text;
+    color: transparent;
+    margin: 0;
+}
+.text-home p{
+    margin: 0;
+    font-size: 4rem;
+    padding: 0;
+}
+.animation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.aniBubble{
+    position: relative;
+}
+.bubble1, .bubble2, .bubble3, .bubble4{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgba(84, 210, 241, 0.53);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    cursor: default;
+}
+
+.bubble1{
+    top: 120px;
+    left: 180px;
+}
+.bubble2{
+    top: 200px;
+    right: 120px;
+}
+.bubble3{
+    top: 300px;
+    left: 40px;
+}
+.bubble4{
+    bottom: 70px;
+    left: 200px;
+}
+.suggestion{
+    position: absolute;
+    top: 70px;
+    left: 165px;
+    background-color: var(--elements-color);
+    padding: 5px;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.suggestion div{
+    height:20px;
+    width:20px;
+    background-color: var(--elements-color);
+    rotate: 45deg;
+    position: absolute;
+    bottom: -10px;
+    z-index: -1;
+}
+
+.linkButton{
+    border-radius: 15px;
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    flex-grow: 1;
+    color: var(--buttonText-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.getStartButton{
+    font-size: 30px;
+    border-radius: 15px;
+    background-image: var(--gradient-color);
+    border: var(--border);
+    font-weight: 600;
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .outerbox {
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .wel {
+        font-size: 2rem;
+        margin: 2% 3%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wel h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .text-home p {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .animation {
+        margin-top: 20px;
+    }
+
+    .bubble1, .bubble2, .bubble3, .bubble4 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .suggestion {
+        position: static;
+        margin: 10px auto; 
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .linkButton {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .getStartButton {
+        font-size: 20px; 
+        width: 150px;
+        height: 50px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}

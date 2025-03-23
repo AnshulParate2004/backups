@@ -1,0 +1,50 @@
+.container {
+    text-align: center; 
+    border-radius: 20px; 
+    padding: 20px; 
+    background-color: #ffffff;
+}
+
+canvas {
+    border-radius: 12px;
+    border: 12px solid #1B4965;
+    margin-bottom: 20px; 
+}
+
+.inputvalue {
+    margin-bottom: 20px; 
+    display: flex;
+    justify-content: center; 
+}
+
+.inputContainer {
+    display: flex;
+    width: 240px; 
+    justify-content: space-between; 
+}
+
+.valueList, .indexList {
+    padding: 10px;
+    margin: 5px;
+    width: 110px;
+    box-sizing: border-box; 
+}
+
+.buttonList {
+    padding: 10px;
+    margin: 5px 10px;
+    background-color: #62B6CB ;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttonList:hover {
+    background-color: #1B4965;
+}
+
+.paraList {
+    font-weight: bold;
+    color: black; 
+}
